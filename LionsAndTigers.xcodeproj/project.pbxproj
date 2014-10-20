@@ -14,6 +14,8 @@
 		E4EC2FE819E72B4800110E26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4EC2FE719E72B4800110E26 /* Images.xcassets */; };
 		E4EC2FEB19E72B4800110E26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4EC2FE919E72B4800110E26 /* LaunchScreen.xib */; };
 		E4EC2FF719E72B4800110E26 /* LionsAndTigersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EC2FF619E72B4800110E26 /* LionsAndTigersTests.m */; };
+		E4EC300519E7361A00110E26 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EC300419E7361A00110E26 /* TopViewController.m */; };
+		E4EC300819E7362400110E26 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EC300719E7362400110E26 /* HUDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		E4EC2FF019E72B4800110E26 /* LionsAndTigersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionsAndTigersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4EC2FF519E72B4800110E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4EC2FF619E72B4800110E26 /* LionsAndTigersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionsAndTigersTests.m; sourceTree = "<group>"; };
+		E4EC300319E7361A00110E26 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		E4EC300419E7361A00110E26 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		E4EC300619E7362400110E26 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		E4EC300719E7362400110E26 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				E4EC2FE119E72B4800110E26 /* ViewController.h */,
 				E4EC2FE219E72B4800110E26 /* ViewController.m */,
 				E4EC2FE419E72B4800110E26 /* Main.storyboard */,
+				E4EC300319E7361A00110E26 /* TopViewController.h */,
+				E4EC300419E7361A00110E26 /* TopViewController.m */,
+				E4EC300619E7362400110E26 /* HUDViewController.h */,
+				E4EC300719E7362400110E26 /* HUDViewController.m */,
 				E4EC2FE719E72B4800110E26 /* Images.xcassets */,
 				E4EC2FE919E72B4800110E26 /* LaunchScreen.xib */,
 				E4EC2FDA19E72B4800110E26 /* Supporting Files */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4EC300819E7362400110E26 /* HUDViewController.m in Sources */,
+				E4EC300519E7361A00110E26 /* TopViewController.m in Sources */,
 				E4EC2FE319E72B4800110E26 /* ViewController.m in Sources */,
 				E4EC2FE019E72B4800110E26 /* AppDelegate.m in Sources */,
 				E4EC2FDD19E72B4800110E26 /* main.m in Sources */,
